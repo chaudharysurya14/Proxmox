@@ -1,0 +1,35 @@
+Proxmox Virtual Environment (Proxmox VE) is an open-source virtualization platform that combines two virtualization technologies: virtual machines (VMs) for running Linux and Windows-based applications, and Linux Containers (LXC) for lightweight application containerization. Proxmox VE is designed to provide an integrated and user-friendly solution for managing virtualization and containerization in a single platform.
+
+Here are key features and components of Proxmox VE:
+
+1. Hypervisor Technology:
+Proxmox VE uses the KVM (Kernel-based Virtual Machine) hypervisor for virtual machine virtualization. KVM is a Linux kernel module that enables hardware-assisted virtualization, allowing efficient and high-performance VMs.
+
+2. Container Technology:
+Proxmox VE includes support for Linux Containers (LXC), a lightweight and efficient containerization technology. Containers share the host system's kernel but run in isolated user spaces, providing a balance between the performance of bare-metal servers and the resource efficiency of virtualization.
+
+3. Web-based Management Interface:
+The Proxmox web-based management interface allows users to easily configure, monitor, and manage virtual machines, containers, storage, and networking. It provides a centralized dashboard for managing the entire infrastructure.
+
+4. Storage Management:
+Proxmox VE supports various storage types, including local storage, networked storage (Ceph, NFS, iSCSI), and ZFS storage. Storage resources can be easily added, managed, and allocated to virtual machines and containers.
+
+5. High Availability (HA):
+Proxmox VE includes a high-availability clustering feature that ensures continuous service availability by automatically migrating VMs between nodes in case of hardware failures. This helps in maintaining uptime for critical applications.
+
+6. Backup and Restore:
+Proxmox VE provides built-in tools for backup and restore operations. Administrators can schedule automated backups of VMs and containers and restore them in case of data loss or system failure.
+
+7. Networking:
+Proxmox VE allows flexible network configuration, including VLAN support, bridged networking, and the ability to configure network bonds for redundancy and load balancing.
+
+8. Role-based Access Control (RBAC):
+The platform supports RBAC, allowing administrators to define roles and assign specific permissions to users or groups. This enhances security and allows for a more granular control over the management interface.
+
+9. Template and Snapshot Support:
+Administrators can create templates for VMs and containers, enabling quick and consistent deployment. Snapshots provide a point-in-time copy of VM or container states, allowing for easy rollbacks and testing.
+
+10. Community and Enterprise Versions:
+Proxmox VE is available in two versions: the open-source Community Edition and the subscription-based Enterprise Edition. The Enterprise Edition includes additional features, support, and updates.
+
+Proxmox VE is a powerful and versatile virtualization and containerization platform suitable for various use cases, including development and testing, production environments, and cloud infrastructure. Its flexibility, ease of use, and comprehensive feature set make it a popular choice for organizations looking to deploy and manage virtualized and containerized workloads.
